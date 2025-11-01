@@ -38,4 +38,4 @@ jobs:
         uses: pre-commit/action@v3.0.1
       - name: Run unit test
         run: |
-          pytest -n auto -v tests/
+          pytest -n 4 -v tests/
